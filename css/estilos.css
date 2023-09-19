@@ -758,21 +758,11 @@ hr {
         color: #be2727;
     }
 
-    /* .f1, .f2 {
-        width: 100%;
-    } */
-
     .information-txt {
         order: -2;
         margin: 0 0 20px 0;
         text-align: center;
     }
-
-    /* .card_staff_v2 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
 
     .card_staff {
         display: grid;
@@ -780,14 +770,6 @@ hr {
         gap: 60px;
         margin-left: 120px;
     }
-
-/*  form {
-        width: 100%;
-    }
-
-    input {
-        width: 100%;
-    } */
 
     .footer {
         padding: 30px;

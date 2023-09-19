@@ -704,6 +704,11 @@ hr {
     height: 400px;
     }
 
+    .contenedor-list{
+        margin-right: 30px;
+        color: #be2727;
+    }
+
     .rules{
         display: flex;
         align-items: center;

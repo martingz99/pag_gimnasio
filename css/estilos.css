@@ -695,7 +695,6 @@ hr {
     }
 
     .c-padre{
-        max-width: 500px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -709,7 +708,7 @@ hr {
     grid-template-areas: 
     "c1 c2 c2"
     "c1 c3 c3";
-    width: 400px;
+    width: 370px;
     height: 400px;
     }
 

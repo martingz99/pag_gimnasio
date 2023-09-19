@@ -217,7 +217,7 @@ hr {
 
 .c1{
     grid-area: c1;
-    background-image: url('../assets/gym1.jpg');
+    background-image: url('../assets/gim1.png');
     background-size: cover;
     position: relative;
 }
@@ -694,17 +694,27 @@ hr {
         flex-direction: column;
     }
 
+    .c-padre{
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        flex-direction: column;
+    } 
+
     .contenedor{
     display: grid;
-    grid-template-columns:repeat(1,1fr) ;
+    grid-template-columns:repeat(2,3fr) ;
     grid-template-areas: 
-    "c1 "
-    "c1";
-    max-width: 1200px;
-    height: 450px;
+    "c1 c2 c2"
+    "c1 c3 c3";
+    width: 400px;
+    height: 400px;
     }
 
     .contenedor-list{
+        text-align: center;
         margin-right: 15px;
         color: #be2727;
     }

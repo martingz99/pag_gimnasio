@@ -660,6 +660,18 @@ hr {
         grid-template-columns: repeat(1,1fr);
     }
 
+    .explore__header {
+        flex-direction: column;
+    }
+    
+    .explore__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .price__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .about {
         padding: 30px;
     }
@@ -754,6 +766,19 @@ hr {
         order: -2;
         margin: 0 0 20px 0;
         text-align: center;
+    }
+
+    /* .card_staff_v2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .card_staff {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 60px;
+        margin-left: 120px;
     }
 
 /*  form {

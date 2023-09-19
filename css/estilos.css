@@ -660,18 +660,6 @@ hr {
         grid-template-columns: repeat(1,1fr);
     }
 
-    /* .explore__header {
-        flex-direction: column;
-    }
-    
-    .explore__grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .price__grid {
-        grid-template-columns: repeat(1, 1fr);
-    } */
-
     .about {
         padding: 30px;
     }
@@ -768,7 +756,7 @@ hr {
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 60px;
-        margin-left: 120px;
+        margin-left: 200px;
     }
 
     .footer {
@@ -803,8 +791,6 @@ hr {
       margin: 0;
       bottom: -20rem;
     }
-  
-    
   
     .review__container {
       flex-direction: column;

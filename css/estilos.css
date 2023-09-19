@@ -717,13 +717,18 @@ hr {
         height: 340px;
     }
 
-    .titul{
+    .title{
         font-size: 22px;
     }
 
     .list{
+        
         list-style: none;
-        font-size: 18px;
+        font-size: 15px;
+    }
+    
+    .list li{
+        margin: none;
     }
 
     .buttons {
@@ -766,6 +771,7 @@ hr {
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 60px;
+        margin-left: 10px;
     }
 
     .footer {

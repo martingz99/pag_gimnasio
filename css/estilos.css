@@ -705,8 +705,14 @@ hr {
     }
 
     .contenedor-list{
-        margin-right: 30px;
+        margin-right: 15px;
         color: #be2727;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 30px;
+        color: #e0003e;
     }
 
     .rules{
@@ -727,7 +733,6 @@ hr {
     }
 
     .list{
-        
         list-style: none;
         font-size: 15px;
     }

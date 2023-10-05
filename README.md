@@ -1,2 +1,2 @@
-#GymPage
-Pagina dedicada a un gimnasio, creada con HTML y CSS.
+#Pagina dedicada a un gimnasio
+Proyecto creado a base de HTML, CSS.(proximamente se le agregara Js)
